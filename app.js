@@ -25,7 +25,7 @@ class UI {
     document.body.style.background = `url('${gif}')`;
     document.body.style.backgroundSize = 'cover';
     //set weather icon 
-    this.icon.src = `http://openweathermap.org/img/wn/${weather.icon}@2x.png`
+    this.icon.src = `https://openweathermap.org/img/wn/${weather.icon}@2x.png`
     // set temperature after conversion to celsius
     this.temp.textContent = Math.round(weather.temp - 273.15);
     // set weather description
@@ -43,7 +43,7 @@ class API {
   //function to get the weather
   async getWeather(location) {
     // api address
-    const apiAddress = `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${this.apiWeatherKey}`;
+    const apiAddress = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${this.apiWeatherKey}`;
 
     // fetch weather data from api
     const response = await fetch(apiAddress);
