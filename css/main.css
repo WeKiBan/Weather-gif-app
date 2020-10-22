@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(126, 203, 255);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.main-container {
+  position: relative;
+  text-align: center;
+  min-height: 500px;
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.685);
+  border: 1px solid rgba(102, 102, 102, 0.432);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.info {
+  height: 60%;
+}
+
+.gif {
+  max-width: 100%;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+  border: white 3px solid;
+}
+
+.description-row {
+  margin-top: 5rem;
+}
+
+.description {
+  font-size: 2.5rem;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.icon {
+  margin-top: -2.5rem;
+}
+
+.search-input{
+  text-align: center;
+  color: grey;
+}
